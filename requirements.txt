@@ -1,0 +1,11 @@
+# VeriMind AI 阶段 1 依赖（Python 3.12 / 64 位）
+# 公共核心依赖
+pydantic>=2.5.0
+python-dotenv>=1.0.0
+pytest>=7.4.0
+
+# Web 界面
+streamlit>=1.30.0
+
+# HTTP 客户端（用于 LLM 与文献 API）
+httpx>=0.27.0

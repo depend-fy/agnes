@@ -1,0 +1,34 @@
+[
+  {
+    "case_id": "labeled_fictional_doi",
+    "text": "某研究发表于 2023 年，DOI 为 10.xxxx/nonexistent-example，并证明该方法可以将准确率提高 40%。",
+    "expected_issue": true,
+    "expected_issue_types": ["citation_nonexistent"],
+    "expected_correct_claims": [],
+    "note": "标注来源：DOI 10.xxxx/nonexistent-example 为虚构前缀（Crossref 查无）。人工复核：是。"
+  },
+  {
+    "case_id": "labeled_numeric_error",
+    "text": "根据 2023 年一篇发表于顶会的论文，该方法在标准数据集上将准确率提高了 120%（远超合理上限）。",
+    "expected_issue": true,
+    "expected_issue_types": ["numeric_error"],
+    "expected_correct_claims": [],
+    "note": "标注来源：120% 提升超出准确率合理上限（0-100%）。人工复核：是。"
+  },
+  {
+    "case_id": "labeled_source_conflict",
+    "text": "一项研究声称 X 方法效果优于 Y 方法，但另一项 2024 年研究在相同设置下得出相反结论。",
+    "expected_issue": true,
+    "expected_issue_types": ["source_conflict"],
+    "expected_correct_claims": [],
+    "note": "标注来源：两个来源结论矛盾。人工复核：是。"
+  },
+  {
+    "case_id": "labeled_correct_fact",
+    "text": "地球是太阳系八大行星之一，自转周期约为 24 小时。",
+    "expected_issue": false,
+    "expected_issue_types": [],
+    "expected_correct_claims": ["地球是太阳系八大行星之一", "自转周期约为 24 小时"],
+    "note": "标注来源：天文常识，两子句均成立。人工复核：是。"
+  }
+]

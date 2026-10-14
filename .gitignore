@@ -1,0 +1,17 @@
+# 密钥与本地数据（禁止提交真实值）
+.env
+*.sqlite
+*.db
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+
+# 日志与临时产物
+*.log
+s.log
+s.err.log
+streamlit.log
+streamlit.err.log

@@ -1,0 +1,40 @@
+{
+  "_note": "可重复演示案例。expected 是人工预期的结论方向（供现场对照，非系统判定）。demo 现场用这些文本，保证结果可复现、可解释。",
+  "cases": [
+    {
+      "id": "demo_fictional_doi",
+      "title": "虚构 DOI（引用不存在）",
+      "text": "某研究发表于 2023 年，DOI 为 10.xxxx/nonexistent-example，并证明该方法可以将准确率提高 40%。",
+      "expected": "应识别出 DOI 10.xxxx/nonexistent-example 不存在 → 标记 citation_nonexistent；'提高 40%' 数字无证据 → 证据不足/暂无法核验。",
+      "demo_note": "虚构前缀 Crossref/OpenAlex 查无，稳定复现'引用不存在'。"
+    },
+    {
+      "id": "demo_numeric_error",
+      "title": "数字错误（超合理上限）",
+      "text": "根据 2023 年一篇发表于顶会的论文，该方法在标准数据集上将准确率提高了 120%（远超合理上限）。",
+      "expected": "120% 超出准确率 0-100% 合理上限 → 标记 numeric_error；证据不足以支持该数字。",
+      "demo_note": "数字明显异常，用于展示'数字错误'识别。"
+    },
+    {
+      "id": "demo_source_conflict",
+      "title": "来源冲突",
+      "text": "一项研究声称 X 方法效果优于 Y 方法，但另一项 2024 年研究在相同设置下得出相反结论。",
+      "expected": "两个来源结论矛盾 → 标记 source_conflict / 部分支持。",
+      "demo_note": "用于展示来源冲突识别。"
+    },
+    {
+      "id": "demo_correct_fact",
+      "title": "正确事实（应全部已核实）",
+      "text": "地球是太阳系八大行星之一，自转周期约为 24 小时。",
+      "expected": "天文常识，两子句应可核实（若有可信天文证据）；否则暂无法核验（不武断判错）。",
+      "demo_note": "展示系统对真实事实不误判。"
+    },
+    {
+      "id": "demo_real_doi",
+      "title": "真实 DOI（完整链路演示，推荐主案例）",
+      "text": "某研究发表于 2013 年，DOI 为 10.1038/nature12373，证明纳米级测温可将精度提高 40%。",
+      "expected": "Crossref 命中真实论文（Nature 2013）；'提高 40%' 若摘要不含该数字 → 证据不足 → 触发基于证据修正 + 独立复核。",
+      "demo_note": "主演示案例：完整展示 检索→证据→修正→复核 链路。"
+    }
+  ]
+}

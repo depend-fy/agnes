@@ -1,0 +1,162 @@
+{
+  "saved_at": "2026-10-12T10:49:24.339733+00:00",
+  "count": 7,
+  "evidence": [
+    {
+      "id": "E-/nature12373",
+      "source_name": "Crossref",
+      "url": "https://doi.org/10.1038/nature12373",
+      "title": "Nanometre-scale thermometry in a living cell",
+      "authors": [
+        "Kucsko G.",
+        "Maurer P. C.",
+        "Yao N. Y.",
+        "Kubo M.",
+        "Noh H. J.",
+        "Lo P. K.",
+        "Park H.",
+        "Lukin M. D."
+      ],
+      "year": 2013,
+      "doi": "10.1038/nature12373",
+      "retrieved_at": "2026-10-12T10:49:21.231488Z",
+      "snippet": null,
+      "supports": [
+        "C001"
+      ],
+      "support_level": "partial_support"
+    },
+    {
+      "id": "E-/W4406477505",
+      "source_name": "OpenAlex",
+      "url": "https://openalex.org/W4406477505",
+      "title": "GEMS逐小时对流层NO2产品数据质量评价与提升：以华东地区为例",
+      "authors": [
+        "高鸿睿 Gao Hongrui",
+        "秦凯 Qin Kai",
+        "何秦 He Qin",
+        "康俊亭 Kang Junting"
+      ],
+      "year": 2024,
+      "doi": "10.3788/aos240826",
+      "retrieved_at": "2026-10-12T10:49:23.212623Z",
+      "snippet": "分别使用对流层监测仪（TROPOMI）和地基多轴差分吸收光谱仪（MAX-DOAS）对地球静止环境监测光谱仪（GEMS）对流层二氧化氮（NO2）柱浓度进行对比验证。结果表明，GEMS对流层NO2柱浓度产品与TROPOMI及地面观测结果均表现出较好的相关性，且其逐小时的观测优势能够更好地揭示空气污染过程的动态演变。进一步，针对GEMS产品数据在质量控制后空间覆盖度大幅降低的问题，采用基于经验正交函数的数据插值（DINEOF）方法进行缺失数据重构，从而提升该产品的应用价值。",
+      "supports": [
+        "C003"
+      ],
+      "support_level": "partial_support"
+    },
+    {
+      "id": "E-/W4323779315",
+      "source_name": "OpenAlex",
+      "url": "https://openalex.org/W4323779315",
+      "title": "TLG-837比值分析仪故障率的管理与提升",
+      "authors": [
+        "刘岩峰",
+        "丁新方",
+        "董永忠"
+      ],
+      "year": 2023,
+      "doi": "10.37155/2717-5316-0401-48",
+      "retrieved_at": "2026-10-12T10:49:23.212694Z",
+      "snippet": "Advanced Materials Science and Technology is a peer-reviewed open access journal published semi-annual online by Omniscient Pte. Ltd. The journal covers the properties, applications and synthesis of new materials related to energy, environment, physics, chemistry, engineering, biology and medicine, including ceramics, polymers, biological, medical and composite materials and so on.",
+      "supports": [
+        "C003"
+      ],
+      "support_level": "partial_support"
+    },
+    {
+      "id": "E-/W4416837312",
+      "source_name": "OpenAlex",
+      "url": "https://openalex.org/W4416837312",
+      "title": "压电四维测力仪扭矩测量精度提升",
+      "authors": [
+        "ZHANG Jun",
+        "ZHANG Peng",
+        "TENG Xuande",
+        "CAI Jiale",
+        "WANG Yuhe",
+        "Ren Zongjin"
+      ],
+      "year": 2025,
+      "doi": "10.37188/ope.20253310.1584",
+      "retrieved_at": "2026-10-12T10:49:23.212718Z",
+      "snippet": "现有压电式四维力测量方法中，扭矩有通过侧向力解算和直接测量两种方式，解算法适用性广但受分力间交叉耦合影响大，直接测量理论精度较高但传感器布置方式受限。本文提出通过传感器内增加石英晶组，不依赖传感器特殊布置而实现扭矩直接测量的四维力测量方案。首先，确定传感器布局方案，在现有三向力测量基础上，各传感器内新增剪切力测量晶组用以测量扭矩；定义传感器加工、装配过程的误差，建立两种测量方法下扭矩测量误差传递模型，通过数值仿真对比测量精度上的差异；设计制备了测力仪，对测力仪关键尺寸进行参数化分析；开展静、动态性能检定实验，在此基础上，开展了多点扭矩加载标定实验，利用两种测量方案计算扭矩。实验结果表明：测力仪最大非线性误差、重复性误差<0.5%，向间干扰<3%，测力仪各向固有频率>1 400 Hz，静、动态性能符合设计要求；多点扭矩加载实验中新方案均方误差降低83.4%，最大测量误差降低26.5%。验证了新方案在提高扭矩测量精度方面的有效性，具有广泛的应用前景。",
+      "supports": [
+        "C003"
+      ],
+      "support_level": "partial_support"
+    },
+    {
+      "id": "E-/W4409075290",
+      "source_name": "OpenAlex",
+      "url": "https://openalex.org/W4409075290",
+      "title": "三位移传感器的纳米级精度X射线反射镜面形测量",
+      "authors": [
+        "王杰卓 Wang Jiezhuo",
+        "周广 Zhou Guang",
+        "类维政 LEI Weizheng",
+        "董晓浩 Dong Xiaohao",
+        "王劼 Wang Jie"
+      ],
+      "year": 2025,
+      "doi": "10.3788/aos241783",
+      "retrieved_at": "2026-10-12T10:49:24.339536Z",
+      "snippet": "为满足X射线自由电子激光装置等新一代光源光束线中高精度反射镜面形测量的需求，基于3个干涉位移传感器搭建了反射镜面形精密测量系统。该系统通过其中一个传感器直接测量被测镜，另外两个传感器则用于参考镜面形测量，以此补偿由位移平台在测量过程中引入的运动误差，从而精确重构出待测镜面形。分析了位移平台运动误差对位移传感器测量精度的影响机制，在此基础上构建了面形高度求解的数学模型，并进行了面形测量实验，测量重复性为2.69 nm。该装置在测量椭圆柱面等二次曲面反射镜方面具有极大的潜力。",
+      "supports": [
+        "C004"
+      ],
+      "support_level": "partial_support"
+    },
+    {
+      "id": "E-/W4411740535",
+      "source_name": "OpenAlex",
+      "url": "https://openalex.org/W4411740535",
+      "title": "基于荧光测温技术可穿戴温度传感器研究进展",
+      "authors": [
+        "温宇航 Wen Yuhang",
+        "郝天煦 Hao Tianxu",
+        "梅雪蕊 Mei Xuerui",
+        "黄龙 Huang Long",
+        "何天虹 He Tianhong",
+        "牛丽 Niu Li",
+        "许君 Xu Jun",
+        "张诚 Zhang Cheng"
+      ],
+      "year": 2025,
+      "doi": "10.3788/lop242263",
+      "retrieved_at": "2026-10-12T10:49:24.339580Z",
+      "snippet": "近年来，随着科技的飞速发展，温度测量技术不断演进，其中荧光测温技术以其独特的优势和潜力，在科研与工业应用中逐渐占据重要地位。聚焦于荧光测温技术的基本原理、最新进展及其在测温服装设计中的创新应用，旨在为相关领域的研究人员和工程师提供参考与启示。首先，深入剖析了荧光测温技术的基本原理。随后，综述了荧光测温探头制备技术的最新研究成果。在测温服装设计领域，荧光测温技术的引入为智能穿戴设备的发展开辟了新的道路。通过将荧光测温传感器巧妙地嵌入衣物面料，可以实现对人体体温的实时监测与记录。综上所述，荧光测温技术作为一项前沿的温度测量技术，在测温服装领域展现出了巨大的应用潜力和价值。随着技术的不断进步和创新，相信荧光测温技术将在更多领域得到广泛应用，为人类社会的发展贡献更多力量。",
+      "supports": [
+        "C004"
+      ],
+      "support_level": "partial_support"
+    },
+    {
+      "id": "E-/W7107869767",
+      "source_name": "OpenAlex",
+      "url": "https://openalex.org/W7107869767",
+      "title": "四象限探测器高精度光斑位置检测技术研究进展",
+      "authors": [
+        "刘作禹 Liu Zuoyu",
+        "刘章宸 Liu Zhangchen",
+        "吕福睿 Lü Furui",
+        "李瑞鹏 Li Ruipeng",
+        "柴海洋 Chai Haiyang",
+        "李亚添 Li Yatian",
+        "张国强 Zhang Guoqiang",
+        "丁少行 Ding Shaohang",
+        "吴佳彬 Wu Jiabin",
+        "高世杰 Gao Shijie"
+      ],
+      "year": 2025,
+      "doi": "10.3788/lop242390",
+      "retrieved_at": "2026-10-12T10:49:24.339597Z",
+      "snippet": "高精度激光光斑位置检测技术在当代科学研究中具有重要作用，四象限探测器作为基于光电效应的位置敏感探测器，因具有高帧频、强灵敏度和抗干扰等优势，广泛用于位移与角度测量等领域。本文首先介绍了四象限探测器的工作原理和常见的光斑位置检测模型，接着分析了其在激光通信、激光制导、光镊技术和精密测量等领域的应用现状与成果，然后详细讨论了影响光斑位置检测精度的因素，包括系统内部特性、外部环境干扰和解算算法的局限，并总结了在光学、电子学、信号处理和算法方面的优化方案，最后展望了四象限探测器的未来研究方向与发展前景。",
+      "supports": [
+        "C004"
+      ],
+      "support_level": "partial_support"
+    }
+  ]
+}
